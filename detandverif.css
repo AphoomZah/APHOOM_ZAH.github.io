@@ -1,0 +1,38 @@
+nav{text-align: center;}
+nav ul {display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-around;
+        margin-top:0;
+        background-image: url(RWgradient.avif);
+        font-size: 25px; 
+        height: .6in;}
+nav li{margin-right: 60px;
+       font-weight: bold;
+       font-size: 25px;
+        margin-bottom: .3in;
+        margin-top:0;}
+nav a{text-decoration: none;}
+nav a:link {color: white;}
+nav a:visited{color: white;}
+body{  margin:0;
+    color: white;
+    background-color: black;
+    font-family: "bookman", serif;}
+footer{font-family: "bookman", serif;
+    font-style: italic;
+    text-align: center;
+    padding-top: 1in;}
+#skeptic{background-image: url(skepticism.jpg);
+        background-repeat: no-repeat;
+        height:300px;
+        width:245px;
+        float: left;
+        display:flex;
+        margin-top: 0in;
+        margin-bottom: 0;}
+h1{font-family: impact, fantasy; }
+p{font-size: large;}
+#centervid{margin-top: 2in;
+    margin-left: 7.6in;
+            margin-right:7.5in;}
