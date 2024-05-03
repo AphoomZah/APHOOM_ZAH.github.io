@@ -27,7 +27,8 @@ body{margin:0;
 footer{font-family: "bookman", serif;
         font-style: italic;
         text-align: center;
-        margin-top: auto;}
+        margin-top: auto;
+        position: static;}
 
 span{display: inline-block;}
 
