@@ -52,20 +52,17 @@ form{text-align:center;}
 #BHeader{float: left; 
         width: 10.5%;
         height: 10%;
-        padding-bottom: .55in;
-        margin-top: .5in;
+        margin-top: .6in;
         margin-left:1%;
         margin-right:.5%;
         word-wrap: break-word;
         font-size: 40px;
-        font-family: "impact", fantasy;
         text-align: left;
-        background-color:white;
-        color: black;
+        color: white;
         padding-left: 1%;}
 
 #BText{margin-left: 2%;
-        padding-top: .5in;
+        padding-top: .1in;
         width: 85%; 
         font-family: "bookman", serif;
         font-size: 25px;
@@ -82,6 +79,13 @@ form{text-align:center;}
         margin-top: 1in;
         border: solid white 4px;}
 
+#Fake1cap{width: 5%;
+        display: inline;
+        font-size: 15px;
+        float:left;
+        padding-top:1in;
+        margin-left:.3in;}
+
 #Fake2{width:500px;
         height: 500px;
         float: right;
@@ -92,6 +96,13 @@ form{text-align:center;}
         border: solid white 4px;
         margin-right: 2in;
         margin-top: 1in;}
+
+#Fake2cap{width: 8%; 
+        display:inline;
+        font-size: 15px; 
+        float:right;
+        padding-top:1in; 
+        margin-left:.3in;}
 
 #right{float:right;
         margin-right:10%;
@@ -149,6 +160,168 @@ form{text-align:center;}
         margin-left: -3px;
         margin-top: 12in;
         top: 0;}
+
+#Caretxt{margin-left: 3in; 
+        margin-right: 5in; 
+        font-size: large; 
+        display:flex;}
+
+#Effectstxt{text-align: center; 
+        margin-left:5in; 
+        margin-right: 5in; 
+        font-size:large;}
         
 .imgContainer{float:left;}
+@media (max-width: 600px){
+
+nav ul{flex-direction:column;}
+
+#BHeader{float: none; 
+        width: 100%;
+        height: normal;
+        margin-top: .6in;
+        margin-left:normal;
+        margin-right:normal;
+        word-wrap: normal;
+        word-break:keep-all;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        padding-left: 1%;}
+
+#BText{margin-left: normal;
+        padding-top: .1in;
+        width: 85%; 
+        font-family: "bookman", serif;
+        font-size: 25px;
+        text-align:center;
+        padding-right: normal;}
+
+#Fake1{width: 300px;
+        height: 300px;
+        display: inline-block;
+        text-align: none;
+        background-image: url("MainPageEx1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 1in;
+        border: solid white 4px;}
+
+#Fake1cap{float:none;
+        text-align:center;
+        font-size:small;}
+
+#Fake2{width:300px;
+        height: 300px;
+        float: none;
+        background-image: url("fake2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid white 4px;
+        margin-right: 2in;
+        margin-top: 1in;}
+
+#Fake2cap{width: 75%; 
+        display:inline;
+        font-size: small; 
+        float:none;
+        text-align:center;
+        padding-top:1in;}
+
+#aboutMe{background-image:url("aboutme.jpg");
+        background-size: cover;
+        height:300px;
+        width:300px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: .5in;
+        border: solid white 8px;}
+
+#Caretxt{margin-left: 3in; 
+        margin-right: 5in; 
+        font-size: large; 
+        display:normal;}
+
+#skeptic{background-image: url(skepticism.jpg);
+        background-repeat: no-repeat;
+        height:300px;
+        width:245px;
+        float: left;
+        display:normal;
+        margin-top: 0in;
+        margin-bottom: 0;}
+
+}
+@media (max-width:1024px){
+nav ul{flex-direction:column;}
+
+#BHeader{float: none; 
+        width: 100%;
+        height: normal;
+        margin-top: .6in;
+        margin-left:normal;
+        margin-right:normal;
+        word-wrap: normal;
+        word-break:keep-all;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        padding-left: 1%;}
+        
+#BText{margin-left: normal;
+        padding-top: .1in;
+        width: 85%; 
+        font-family: "bookman", serif;
+        font-size: 25px;
+        text-align:center;
+        padding-right: normal;}
+        
+#Fake1{width: 300px;
+        height: 300px;
+        display: block;
+        text-align: none;
+        background-image: url("MainPageEx1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 1in;
+        border: solid white 4px;}
+        
+ #Fake1cap{float:none;
+                text-align:center;
+                font-size:small;}
+        
+#Fake2{width:400px;
+        height: 400px;
+        float: none;
+        display:block;
+        background-image: url("fake2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid white 4px;
+        margin-right: 2in;
+        margin-top: 1in;}
+        
+#Fake2cap{width: 75%; 
+        display:inline;
+        font-size: small; 
+        float:none;
+        text-align:center;
+        padding-top:1in;}
+#aboutMe{background-image:url("aboutme.jpg");
+        background-size: cover;
+        height:300px;
+        width:300px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: .5in;
+        border: solid white 8px;}
+}
         
