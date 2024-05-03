@@ -178,29 +178,29 @@ nav ul{flex-direction:column;}
 
 #BHeader{float: none; 
         width: 100%;
-        height: normal;
+        height: initial;
         margin-top: .6in;
-        margin-left:normal;
-        margin-right:normal;
-        word-wrap: normal;
+        margin-left:initial;
+        margin-right:initial;
+        word-wrap: initial;
         word-break:keep-all;
         font-size: 40px;
         text-align: center;
         color: white;
         padding-left: 1%;}
 
-#BText{margin-left: normal;
+#BText{margin-left: initial;
         padding-top: .1in;
         width: 85%; 
         font-family: "bookman", serif;
         font-size: 25px;
         text-align:center;
-        padding-right: normal;}
+        padding-right: initial;}
 
 #Fake1{width: 300px;
         height: 300px;
         display: inline-block;
-        text-align: none;
+        text-align: initial;
         background-image: url("MainPageEx1.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -244,14 +244,14 @@ nav ul{flex-direction:column;}
 #Caretxt{margin-left: 3in; 
         margin-right: 5in; 
         font-size: large; 
-        display:normal;}
+        display:initial;}
 
 #skeptic{background-image: url(skepticism.jpg);
         background-repeat: no-repeat;
         height:300px;
         width:245px;
         float: left;
-        display:normal;
+        display:initial;
         margin-top: 0in;
         margin-bottom: 0;}
 
@@ -261,29 +261,29 @@ nav ul{flex-direction:column;}
 
 #BHeader{float: none; 
         width: 100%;
-        height: normal;
+        height: initial;
         margin-top: .6in;
-        margin-left:normal;
-        margin-right:normal;
-        word-wrap: normal;
+        margin-left:initial;
+        margin-right:initial;
+        word-wrap: initial;
         word-break:keep-all;
         font-size: 40px;
         text-align: center;
         color: white;
         padding-left: 1%;}
         
-#BText{margin-left: normal;
+#BText{margin-left: initial;
         padding-top: .1in;
         width: 85%; 
         font-family: "bookman", serif;
         font-size: 25px;
         text-align:center;
-        padding-right: normal;}
+        padding-right: initial;}
         
 #Fake1{width: 300px;
         height: 300px;
         display: block;
-        text-align: none;
+        text-align: initial;
         background-image: url("MainPageEx1.png");
         background-repeat: no-repeat;
         background-size: cover;
